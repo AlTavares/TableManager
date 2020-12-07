@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24D50E9D257ED29B00735E01 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D50E98257ED29B00735E01 /* TableViewExtension.swift */; };
+		24D50E9E257ED29B00735E01 /* SpaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D50E99257ED29B00735E01 /* SpaceRow.swift */; };
+		24D50E9F257ED29B00735E01 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D50E9A257ED29B00735E01 /* Row.swift */; };
+		24D50EA0257ED29B00735E01 /* TableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D50E9B257ED29B00735E01 /* TableManager.swift */; };
+		24D50EA1257ED29B00735E01 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D50E9C257ED29B00735E01 /* Section.swift */; };
 		FDC91CE21D5D143A0031A2AD /* TableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC91CE11D5D143A0031A2AD /* TableManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDC91CE91D5D143A0031A2AD /* TableManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC91CDE1D5D143A0031A2AD /* TableManager.framework */; };
 		FDC91CEE1D5D143A0031A2AD /* TableManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC91CED1D5D143A0031A2AD /* TableManagerTests.swift */; };
-		FDC91CFC1D5D15440031A2AD /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC91CF81D5D15440031A2AD /* Row.swift */; };
-		FDC91CFD1D5D15440031A2AD /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC91CF91D5D15440031A2AD /* Section.swift */; };
-		FDC91CFE1D5D15440031A2AD /* TableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC91CFA1D5D15440031A2AD /* TableManager.swift */; };
-		FDC91CFF1D5D15440031A2AD /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC91CFB1D5D15440031A2AD /* TableViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +28,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24D50E98257ED29B00735E01 /* TableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewExtension.swift; path = Pod/Classes/TableViewExtension.swift; sourceTree = SOURCE_ROOT; };
+		24D50E99257ED29B00735E01 /* SpaceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpaceRow.swift; path = Pod/Classes/SpaceRow.swift; sourceTree = SOURCE_ROOT; };
+		24D50E9A257ED29B00735E01 /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Pod/Classes/Row.swift; sourceTree = SOURCE_ROOT; };
+		24D50E9B257ED29B00735E01 /* TableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableManager.swift; path = Pod/Classes/TableManager.swift; sourceTree = SOURCE_ROOT; };
+		24D50E9C257ED29B00735E01 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Pod/Classes/Section.swift; sourceTree = SOURCE_ROOT; };
 		FDC91CDE1D5D143A0031A2AD /* TableManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC91CE11D5D143A0031A2AD /* TableManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableManager.h; sourceTree = "<group>"; };
 		FDC91CE31D5D143A0031A2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDC91CE81D5D143A0031A2AD /* TableManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC91CED1D5D143A0031A2AD /* TableManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableManagerTests.swift; sourceTree = "<group>"; };
 		FDC91CEF1D5D143A0031A2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDC91CF81D5D15440031A2AD /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Pod/Classes/Row.swift; sourceTree = SOURCE_ROOT; };
-		FDC91CF91D5D15440031A2AD /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Pod/Classes/Section.swift; sourceTree = SOURCE_ROOT; };
-		FDC91CFA1D5D15440031A2AD /* TableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableManager.swift; path = Pod/Classes/TableManager.swift; sourceTree = SOURCE_ROOT; };
-		FDC91CFB1D5D15440031A2AD /* TableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewExtension.swift; path = Pod/Classes/TableViewExtension.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +81,11 @@
 		FDC91CE01D5D143A0031A2AD /* TableManager */ = {
 			isa = PBXGroup;
 			children = (
-				FDC91CF81D5D15440031A2AD /* Row.swift */,
-				FDC91CF91D5D15440031A2AD /* Section.swift */,
-				FDC91CFA1D5D15440031A2AD /* TableManager.swift */,
-				FDC91CFB1D5D15440031A2AD /* TableViewExtension.swift */,
+				24D50E9A257ED29B00735E01 /* Row.swift */,
+				24D50E9C257ED29B00735E01 /* Section.swift */,
+				24D50E99257ED29B00735E01 /* SpaceRow.swift */,
+				24D50E9B257ED29B00735E01 /* TableManager.swift */,
+				24D50E98257ED29B00735E01 /* TableViewExtension.swift */,
 				FDC91CE11D5D143A0031A2AD /* TableManager.h */,
 				FDC91CE31D5D143A0031A2AD /* Info.plist */,
 			);
@@ -160,7 +163,7 @@
 				TargetAttributes = {
 					FDC91CDD1D5D143A0031A2AD = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1220;
 					};
 					FDC91CE71D5D143A0031A2AD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -173,6 +176,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = FDC91CD41D5D143A0031A2AD;
@@ -208,10 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC91CFC1D5D15440031A2AD /* Row.swift in Sources */,
-				FDC91CFD1D5D15440031A2AD /* Section.swift in Sources */,
-				FDC91CFE1D5D15440031A2AD /* TableManager.swift in Sources */,
-				FDC91CFF1D5D15440031A2AD /* TableViewExtension.swift in Sources */,
+				24D50EA1257ED29B00735E01 /* Section.swift in Sources */,
+				24D50EA0257ED29B00735E01 /* TableManager.swift in Sources */,
+				24D50E9D257ED29B00735E01 /* TableViewExtension.swift in Sources */,
+				24D50E9F257ED29B00735E01 /* Row.swift in Sources */,
+				24D50E9E257ED29B00735E01 /* SpaceRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +370,7 @@
 		FDC91CF61D5D143A0031A2AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TableManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.morbix.TableManager.TableManagerTests;
@@ -376,6 +382,7 @@
 		FDC91CF71D5D143A0031A2AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TableManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.morbix.TableManager.TableManagerTests;
